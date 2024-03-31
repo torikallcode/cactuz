@@ -20,7 +20,7 @@ export const Navbar = () => {
 
   return (
     <nav
-      className={`w-full z-50  px-10 ${scrolled ? ' bg-opacity-50 py-3 border-b border-secondary' : 'bg-transparent py-6 mx-7'
+      className={`w-full z-50  px-10 ${scrolled ? ' bg-opacity-50 py-3 border-b border-secondary' : 'bg-transparent py-6'
         } fixed top-0 transition-all duration-300 ease-in-out`}
       style={{
         backdropFilter: scrolled ? 'blur(7px)' : 'none',
